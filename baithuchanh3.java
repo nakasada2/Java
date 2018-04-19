@@ -6,6 +6,7 @@
 package baitap;
 
 import javax.swing.DefaultListModel;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -159,7 +160,8 @@ public class baithuchanh3 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btcongActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btcongActionPerformed
-        
+        String sTheThao=JOptionPane.showInputDialog(this,"Nhap mon the thao");
+        model11.addElement(sTheThao);
     }//GEN-LAST:event_btcongActionPerformed
 
     private void btquaphaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btquaphaiActionPerformed
